@@ -48,6 +48,10 @@
 	text-align: center;
 	line-height: 40px;
 }
+.car:hover{
+	background-color: #fff;
+	color: orange;
+}
 .icon-gouwuchekong:before{
 	margin-right: 5px;
 }
@@ -111,6 +115,7 @@
 	height: 50px;
 	background-color: #fff;
 	float: left;
+
 	
 }
 .nav-right-wenzi input{
@@ -119,6 +124,8 @@
 	height: 100%;
 	box-sizing: border-box;
 	background-color: #fff;
+	padding-left: 14px;
+
 
 }
 .nav-right-wenzi input:hover{
@@ -173,6 +180,13 @@
 		text-align: center;
 		float: left;
 		margin-right:14px;
+		
+}
+.danpin-item:hover{
+		box-shadow:0 15px  30px rgba(0, 0, 0, 0.1); 
+		
+		transition: all .5s linear;
+
 }
 .danpin-item:nth-child(5){
 	margin-right: 0;
@@ -646,6 +660,10 @@
 	margin-right: 14px;
 
 }
+.nrkaishi .nr-bottom-item:hover{
+	box-shadow:0 15px  30px rgba(0, 0, 0, 0.1); 
+	transition: all .5s linear;
+}
 .nrkaishi .swiper-wrapper{
 	height: auto;
 }
@@ -773,6 +791,29 @@
     margin-right: 14px;
     float: left;
 }
+.shipin-item1:hover{
+	box-shadow:0 15px  30px rgba(0, 0, 0, 0.1); 
+	transition: all .5s linear;	
+}
+.shipin-img:hover .shipin-icon{
+	color: orange;
+}
+.shipin-bofang{
+	width: 30px;
+	height: 30px;
+	position: absolute;
+	left: 20px;
+	bottom: 5px;
+
+}
+.shipin-img .shipin-icon{
+	font-size: 30px;
+	text-align: center;
+	line-height: 30px;
+	color: #fff;
+
+}
+
 .shipin-item1:nth-child(4){
 	margin: 0
 }
@@ -780,6 +821,7 @@
 	width: 296px;
     height: 180px;
     margin: 0 0 28px;
+    position: relative;
 }
 .shipin-title{
     font-size: 14px;
